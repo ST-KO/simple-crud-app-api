@@ -1,10 +1,5 @@
-//DB password ablHpBKuUIePCIpk
-//DB username scytherock74
-//DB connectionString mongodb+srv://scytherock74:ablHpBKuUIePCIpk@cluster0.zhph1rc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
 const express = require("express");
 const mongoose = require("mongoose");
-const Product = require("./models/product.model");
 const productRoutes = require("./routes/product.route");
 
 const app = express();
